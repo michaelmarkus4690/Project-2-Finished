@@ -1,161 +1,81 @@
 /* Mobile */
 
-@media only screen and (max-width: 600px) {
-    html{
-        width: 1000px;
-    }
-    .Page{
-        margin-left: 0px;
-        margin-right: 0px;
-
-    }
-
-    body{
-        margin: 0px;
-    
-        max-width: 1000px;    
-    }
-    * {
-        max-width: 600px;
-        margin-right: 0px;
-    }
-
-
-    h1{
-        max-width: 300px;
-    }    
-
-
-    .heroArea {
-        max-height: 300px;
-        margin-bottom:40vh;
-        max-width: 600px;
-
-    }
-
-    .heroTitle{
-        border-radius: 20px;
-        height: 100px;
-    }
-
-    .heroTitle > h1{
-        background-color: black;
-        border-radius: 20px;
-    }
-
-    .flexDaddy{
-        width: 100%;
-    }
-    .textSection p{
-    background: linear-gradient(90deg, rgba(166,117,117,1) 0%, rgba(200,42,42,1) 85%);
-    width: 80vw;
-    margin-left: 0px;
-    background-color: black;
-    max-height: 3500px;
-    border-radius: 20px;
-    }
-
-    .textSection2 p{
-        background: linear-gradient(90deg, rgba(166,117,117,1) 0%, rgba(200,42,42,1) 85%);
-        width: 80vw;
-        margin-left: 0px;
-        background-color: black;
-        max-height: 3500px;
-        border-radius: 20px;
-        }
-    
-    .flexGrowth{
-        display: under;
-    }
-
-    .maxWidthFifty{
-    width: 100%;
-    }
-
-    .flexGrowth {
-        justify-content: under    
-    
-    }
-
-
-
-    .phishingbottomnav{
-        width: 33%;
-        display: flex;
-        margin-top: 15vh;
-        margin-bottom: 10vh;
-        background: linear-gradient(90deg, rgba(167,29,49,1) 60%, rgba(63,13,18,1) 100%);;
-        border-radius: 20px;
-    
-    }
-
-    .img{
-        width: 50%;
-        display: none;
-        image-rendering: none
-        ;
-    }
-
-    .flexDaddy{
-        width: 10%;
-    }
-
-
-    
-.flexDaddy {
-    display: flex;
+@media (max-width:870px){
+.heroArea{
+    max-height: 200px;
 
 }
 
-
-.logoimage{
-    display: flex
-
+.heroTitle{
+    display: none;
 }
-
-
 .flexDaddy{
     display: flex;
     flex-direction: column;
-
-}
-.row{
-    display: flex;
-    flex-direction: column;
-  
-}
-.rowmg{
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
-hr{
-    width:50%
-}
-
-.headerRules > p{
-    width:50%
-
-}
-.twodiv > p{
-    width: 75%;
-    border-radius: 20px;
-}
 .flexGrowth{
-    margin-top: 20px;
-    width: 300px;
+    margin-top: 10vh;
+    max-width: 75vw;
 }
 
-.textBox{
-width: 75%;
+.contentstuff{
+    min-width: 100%;
+    width: 100%;    
+    font-size: 4rem;
+    padding: 0px;
+    margin-right: 0p;
+}
 
+.contentstuff p{
+    justify-content: center;
+    font-size: .8rem;
+
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+
+.row{
+    max-height: 400px;
+    max-width: 80vw;
+}
+.row .boxText{
+    font-size: .6rem;
 }
 
 .mg{
-    width: 15%;
+    max-width: 20vw;
 }
 
+.logoimage{
+    max-width: 100%;
 }
+footer p {
+   display: none;
+}
+
+.heroArea2{
+    max-height: 200px;
+}
+
+.heroTitle2{
+    display: none;
+}
+
+.maxWidthFifty {
+    width: none;
+}
+
+
+.generaltips{
+    max-width: 50%;
+}
+}
+
 /* Standard */
 body{
     background-color: white;
@@ -507,3 +427,5 @@ address{
 .generaltips{
     color:white
 }
+
+
