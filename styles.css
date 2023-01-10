@@ -1,6 +1,7 @@
 /* Mobile */
 
 @media (max-width:870px){
+
 .heroArea{
     max-height: 200px;
 
@@ -29,6 +30,15 @@
 }
 
 .contentstuff p{
+    width: 60%;
+    justify-content: center;
+    font-size: .8rem;
+
+}
+
+
+.contentstufftwo p{
+    width: 90%;
     justify-content: center;
     font-size: .8rem;
 
@@ -48,6 +58,7 @@ html,body{
 }
 
 .mg{
+    min-height: 0;
     max-width: 20vw;
 }
 
@@ -79,7 +90,7 @@ footer p {
     max-width: 90vw;
 
 }
-
+}
 /* Standard */
 body{
     background-color: white;
